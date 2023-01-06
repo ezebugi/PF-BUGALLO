@@ -1,0 +1,61 @@
+section {
+  flex-wrap: wrap; }
+
+@media (min-width: 576px) {
+  section div {
+    flex-basis: 100%; } }
+
+@media (min-width: 768px) {
+  section div {
+    flex-basis: 50%; } }
+
+@media (min-width: 1025px) {
+  section div {
+    flex-basis: 25%; } }
+
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+.bg-light {
+  background: #eff302 !important; }
+
+#Multidispositivo {
+  background: #eff302 !important; }
+
+footer {
+  background: #eff302 !important; }
+
+h1 {
+  animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  border-top: solid 5px #eff302;
+  border-right: solid 100px #eff302;
+  border-bottom: solid 5px #eff302;
+  border-left: solid 100px #eff302;
+  margin: 0%;
+  padding: 0%; }
+
+.mayor-margen a {
+  background-color: #080808;
+  border-color: black; }
+
+#caja {
+  border: solid black; }
+
+.mayor-margen {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+#logotipo {
+  width: auto;
+  height: 100px; }
